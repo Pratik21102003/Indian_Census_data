@@ -4,7 +4,7 @@ import pandas as pd
 import plotly.express as px
 st.set_page_config(layout='wide')
 st.backgroundColor="#FFFFFF"
-data=pd.read_csv('C:/Users/Pratik/Desktop/project2/India.csv')
+data=pd.read_csv('India.csv')
 st.sidebar.title('Indian States')
 list_of_states=list(data['State'].unique())
 list_of_states.insert(0,'Overall India')
